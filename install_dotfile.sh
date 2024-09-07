@@ -6,7 +6,7 @@ esac
 
 read -p "add starship config? zsh(macos) and bash only!!! (y/n):" ss_conf
 case $ss_conf in
-  [Yy]* ) ln -s $(pwd)/starship.toml ~/.config/starship.toml
+  [Yy]* ) cp -f $(pwd)/starship.toml ~/.config/starship.toml
     case $SHELL in
     *zsh )
       echo 'eval "$(starship init zsh)"' >> ~/.zshrc

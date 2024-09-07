@@ -12,4 +12,11 @@ cd dotfile
 ```shell script
 ./install_dotfile.sh
 ```
-4. change iTerm **font** to MesloGL Nerd Font or other Nerd Font
+4. change iTerm **font** to Hack Nerd Font or other Nerd Font
+5. VS Code Termainal setting add:
+```json
+{
+    "terminal.integrated.fontFamily": "Hack Nerd Font",
+    "terminal.external.osxExec": "iTerm.app" 
+}
+```

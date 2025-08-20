@@ -23,6 +23,7 @@ $julia\
 $nodejs\
 $nim\
 $python\
+$conda\
 $rust\
 $scala\
 [](fg:#86BBD8 bg:#06969A)\
@@ -190,6 +191,11 @@ format = '[$symbol($version)]($style)'
 symbol = "🐍 "
 style = "fg:#000000 bg:#86BBD8"
 format = '[$symbol($version)(\($virtualenv\))]($style)'
+
+[conda]
+symbol = "Ⓒ "
+style = "fg:#000000 bg:#86BBD8"
+format = '[(\($symbol$environment\))]($style)'
 
 [rust]
 symbol = ""
